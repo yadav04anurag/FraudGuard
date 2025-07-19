@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -20,7 +20,7 @@
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",
     "react-router": "^7.7.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^0.0.0",
     "react-tabs": "^6.1.0",
     "tailwindcss": "^4.1.11",
     "web-vitals": "^5.0.3"

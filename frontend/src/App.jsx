@@ -5,7 +5,7 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 
 import MainLayout from './components/layout/MainLayout';
 import Login from './components/auth/Login';
-import Register from './components/auth/Register'; // IMPORTED
+import Register from './components/auth/Register'; 
 import AdminDashboard from './components/admin/AdminDashboard';
 import FraudAppManager from './components/admin/FraudAppManager';
 import FraudUrlManager from './components/admin/FraudUrlManager';
@@ -30,7 +30,7 @@ function App() {
   return (
     <AuthProvider>
       <Router>
-        <Toaster position="top-right" toastOptions={{ duration: 4000 }} />
+        <Toaster position="top-right" toastOptions={{ duration: 2000 }} />
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} /> {/* ADDED */}

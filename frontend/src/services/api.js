@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://fraud-guard-pi.vercel.app/api',
+  baseURL: 'https://fraud-guard-pi.vercel.app//api',
 });
 
 api.interceptors.request.use((config) => {

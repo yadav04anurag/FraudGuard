@@ -2,8 +2,6 @@
 
 FraudGuard is a full-stack MERN application designed for collaborative fraud detection and management. It provides a platform for users to report suspicious websites and for administrators to verify, manage, and track these threats.
 
-![FraudGuard Dashboard Preview](https://via.placeholder.com/800x400?text=FraudGuard+Dashboard+Screenshot)
-
 ## Table of Contents
 - [Features](#features)
 - [Live Demo](#live-demo)
